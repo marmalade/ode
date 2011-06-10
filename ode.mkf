@@ -1,0 +1,46 @@
+upstream
+{
+	#original: http://www.zlib.net/zlib-1.2.3.tar.gz
+	url="http://source.ideaworkslabs.com/upstream/ode-0.11.1.tar.gz"
+	local=modified
+}
+
+option no-vc6
+
+define ODE_LIB
+
+includepaths
+{
+	.
+	"modified/include"
+	"modified/include/ode"
+	"modified/OPCODE"
+}
+
+files
+{
+	config.h
+	ode.defines.txt
+
+	("modified/ode/src")
+	[sec]
+	"*.h"
+	"*.c"
+	"*.cpp"
+
+	("modified/ode/src/joints")
+	[joints]
+	"*.h"
+	"*.cpp"
+
+	("modified/OPCODE")
+	[opcode]
+	"*.h"
+	"*.cpp"
+	
+	("modified/OPCODE/Ice")
+	[opcode Ice]
+	"*.h"
+	"*.cpp"
+	
+}

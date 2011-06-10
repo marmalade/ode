@@ -1,0 +1,1 @@
+ODE_LIB  Configure ode to build as a lib

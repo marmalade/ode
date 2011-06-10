@@ -1,0 +1,13 @@
+#!/usr/bin/env mkb
+package ode
+
+files
+{
+	example1.cpp
+}
+
+subprojects
+{
+	ode
+	iwgx
+}

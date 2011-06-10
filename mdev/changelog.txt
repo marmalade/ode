@@ -1,0 +1,5 @@
+ode (2.5.3-4)
+
+  * add no-vc6 option
+
+ -- Marmalade Package Team <packages@ideaworkslabs.com>  Mon, 02 May 2011 2:49:00 -0700
