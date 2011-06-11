@@ -1,3 +1,6 @@
+lib
 upstream
 build_*
 ode-*.tar.gz
+ode_*.mdev
+ode_*.msrc
