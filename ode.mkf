@@ -2,6 +2,7 @@ upstream
 {
     #original: http://www.zlib.net/zlib-1.2.3.tar.gz
     url="http://source.madewithmarmalade.com/upstream/ode-0.11.1.tar.gz"
+    checkin=git
 }
 
 option no-vc6

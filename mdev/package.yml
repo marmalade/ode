@@ -1,18 +1,15 @@
 Package: ode
 Version: 2.5.3
-Revision: 5
+Revision: 6
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: ode.mkb
+Libraries: ode
 Homepage: http://ode.org/
 Description:
   ODE - the open dynamics engine.
 Contents:
  - upstream/include/ode : h/ode
- - lib/arm/ode.a
- - lib/arm/ode_d.a
- - lib/arm/libode_d.a
- - lib/arm/libode.a
-Contents-src:
+Contents-Source:
  - example1.cpp
  - example1.mkb
  - upstream/include/ode/odeconfig.h
@@ -20,13 +17,3 @@ Contents-src:
  - ode.mkb
  - ode.defines.txt
  - config.h
-Contents-platform:
-  win32:
-    - lib/x86/ode.lib
-    - lib/x86/ode_d.lib
-  linux:
-    - lib/x86/linux/libode.a
-    - lib/x86/linux/libode_d.a
-  macosx:
-    - lib/x86/darwin/libode.a
-    - lib/x86/darwin/libode_d.a

@@ -3,11 +3,11 @@ package ode
 
 files
 {
-	example1.cpp
+    example1.cpp
 }
 
 subprojects
 {
-	ode
-	iwgx
+    ode
+    iwgx
 }
